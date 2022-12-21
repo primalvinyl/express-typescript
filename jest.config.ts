@@ -1,5 +1,4 @@
 export default {
-    automock: true,
     collectCoverageFrom: [
         'src/**/*.{ts,js}',
         '!**/*.d.ts',
