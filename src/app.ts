@@ -1,4 +1,11 @@
 import express, { Application } from 'express';
+import path from 'path';
+import dotenv from 'dotenv';
+
+// initialize environment variables
+dotenv.config({
+    path: path.join(__dirname, '../', `.env.${process.env.NODE_ENV}`)
+});
 
 // initialize express service
 const app: Application = express();
