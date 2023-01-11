@@ -6,4 +6,5 @@ export default {
     ],
     coverageDirectory: 'coverage',
     preset: 'ts-jest',
+    passWithNoTests: true,
 };
